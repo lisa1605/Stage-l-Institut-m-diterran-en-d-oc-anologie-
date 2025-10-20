@@ -13,7 +13,7 @@ Le modèle couple phytoplancton, bactéries hétérotrophes, zooplancton, nutrim
 
  Technologies
 - **Langage** : Python (3.10+)
-- **Bibliothèques principales** : NumPy, Pandas, SciPy, Matplotlib, Statsmodels
+- **Bibliothèques principales** : NumPy, Pandas, SciPy, Matplotlib
 
  Organisation
 - `main_model.py` : script principal contenant les équations différentielles.
