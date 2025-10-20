@@ -91,3 +91,48 @@ def irradiance_saisonniere(I0, obl, lat_deg, Period, phi):
             iparz0[jt - 1] = 0
     return iparz0
 
+
+choix des forçages propres à chaque site : 
+
+
+# Les trois sites diffèrent en température et (surtout) en flux de nutriments
+
+
+sites = {
+    "Banyuls": {
+        "Tmin": 13,
+        "Tmax": 22,
+        "phiT": 190, #190
+        "Cmin": 0.008,#0.08,
+        "Cmax":0.259,# 0.259
+        "phiF": 100,#100,
+        "I0": 350,#350.0,
+        "obl_deg": 23.4,
+        "lat_deg": 42.4883,
+        "phiI": 190, #190
+    },
+    "Marseille": {
+        "Tmin": 14,
+        "Tmax": 22,
+        "phiT": 190, #190,
+        "Cmin": 0.0022,#0.0055,
+        "Cmax": 0.03,#0.058,
+        "phiF": 90,#100
+        "I0": 350,#350.0,
+        "obl_deg": 23.4,
+        "lat_deg": 43.2417,
+        "phiI": 190, #185,#185,
+    },
+    "Villefranche": {
+        "Tmin": 14,
+        "Tmax": 26,
+        "phiT": 180, #180
+        "Cmin": 0.0045,#0.005
+        "Cmax": 0.01,#0.01
+        "phiF": 100,#100
+        "I0": 350,#350
+        "obl_deg": 23.4,
+        "lat_deg": 43.6833,
+        "phiI": 180, #180
+    }
+}
