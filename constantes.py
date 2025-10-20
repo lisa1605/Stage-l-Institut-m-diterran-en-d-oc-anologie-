@@ -1,3 +1,7 @@
+# # période
+Period = 360
+t = np.linspace(0, Period, Period)
+N0 =3  # µM
 
 #Taux de croissance max (j-1)
 µ0cyano = 0.35
