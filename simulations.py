@@ -1,7 +1,7 @@
 from scipy.integrate import solve_ivp
 import numpy as np
 from src.model_equations import make_F_P
-from src.forcingsfunctions import temperature_saisonniere, C_saisonnier, irradiance_saisonniere
+from src.forcingfunctions import temperature_saisonniere, C_saisonnier, irradiance_saisonniere
 from src.constantes import Period, N0
 
 
