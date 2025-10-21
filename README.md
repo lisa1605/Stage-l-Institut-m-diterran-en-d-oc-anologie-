@@ -19,6 +19,8 @@ Ce dépôt contient l’ensemble du pipeline R permettant de :
 - calculer les **biomasses microbiennes** à partir des volumes cellulaires moyens et des abondances, en les exprimant en carbone et azote selon les relations allométriques issues de la littérature (Menden-Deuer & Lessard, 2000 ; Bertilsson et al., 2003 ; Godwin et al., 2015) ;  
 - comparer les **dynamiques saisonnières de biomasse** entre sites et groupes microbiens (bactéries hétérotrophes, cyanobactéries, eucaryotes) afin d’évaluer leurs contributions relatives à la productivité primaire.
 - intégrer les données **PHYTOBS** de microphytoplancton pour compléter les observations SOMLIT, en estimant leurs biomasses saisonnières (mmol N/m³) et en comparant les cycles entre Banyuls, Marseille et Villefranche.
+- intégrer les données **ZOOScan** pour caractériser la **biomasse et la structure de taille du zooplancton**,  et comparer leurs variations saisonnières à celles des communautés microbiennes et phytoplanctoniques.  
+
 
 
 ---
@@ -52,6 +54,8 @@ Ce dépôt contient l’ensemble du pipeline R permettant de :
 | **Hydrologie** | Température, salinité, oxygène, nutriments (NO₃⁻, NH₄⁺, PO₄³⁻, SiOH₄) | SOMLIT |
 | **Biomasses** | Biomasses microbiennes calculées à partir des abondances et tailles cellulaires | Calculées ou observées localement |
 | **PHYTOBS** | Comptages de microphytoplancton (>10 µm) par taxon et par site (Banyuls, Marseille, Villefranche), utilisés pour estimer la biomasse phytoplanctonique saisonnière. | Réseau national PHYTOBS |
+| **ZOOScan** | Données d’imagerie zooplanctonique (biomasse totale et par classe de taille) issues d’analyses semi-automatisées à Marseille, converties en mmol N/m³ pour l’étude des cycles saisonniers. | Plateforme ZOOScan – MIO |
+
 
 
 
