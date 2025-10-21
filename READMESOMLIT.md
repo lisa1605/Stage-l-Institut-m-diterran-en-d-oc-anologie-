@@ -29,6 +29,9 @@ Ce dépôt contient l’ensemble du pipeline R permettant de :
 | **4b** | `04b_regression_chla_estimation.R` | Régression entre FLR et **chlorophylle-a (CHLA)** par site, estimation de la CHLA par groupe et conversion en mmolN/m³. |
 | **4c** | `04c_biomass_adjustment.R` | Ajustement des biomasses eucaryotes à partir du ratio FLR/Biomasse calculé sur *Synechococcus*. |
 | **5** | `05_visualisations.R` | Génération des graphiques : dynamiques saisonnières FLR, CHLA (mesurée/estimée) et biomasses ajustées (mensuelles ou journalières). |
+| **6a** | `06a_biomass_calculation.R` | Calcul des biomasses carbone et azote à partir des abondances et volumes cellulaires moyens. |
+| **6b** | `06b_biomass_statistics.R` | Calcul des moyennes mensuelles et annuelles, ainsi que des écarts-types par groupe microbien et par site. |
+| **6c** | `06c_biomass_visualisations.R` | Visualisations des biomasses : barplots annuels, séries journalières et dynamiques saisonnières des principaux groupes microbiens. |
 
 ---
 
@@ -40,9 +43,7 @@ Ce dépôt contient l’ensemble du pipeline R permettant de :
 | **Hydrologie** | Température, salinité, oxygène, nutriments (NO₃⁻, NH₄⁺, PO₄³⁻, SiOH₄) | SOMLIT |
 | **Biomasses** | Biomasses microbiennes calculées à partir des abondances et tailles cellulaires | Calculées ou observées localement |
 
----
 
-## Structure du dépôt
 
 
 
