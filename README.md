@@ -19,7 +19,10 @@ Ce dépôt contient l’ensemble du pipeline R permettant de :
 - calculer les **biomasses microbiennes** à partir des volumes cellulaires moyens et des abondances, en les exprimant en carbone et azote selon les relations allométriques issues de la littérature (Menden-Deuer & Lessard, 2000 ; Bertilsson et al., 2003 ; Godwin et al., 2015) ;  
 - comparer les **dynamiques saisonnières de biomasse** entre sites et groupes microbiens (bactéries hétérotrophes, cyanobactéries, eucaryotes) afin d’évaluer leurs contributions relatives à la productivité primaire.
 - intégrer les données **PHYTOBS** de microphytoplancton pour compléter les observations SOMLIT, en estimant leurs biomasses saisonnières (mmol N/m³) et en comparant les cycles entre Banyuls, Marseille et Villefranche.
-- intégrer les données **ZOOnet** pour caractériser la **biomasse et la structure de taille du zooplancton**,  et comparer leurs variations saisonnières à celles des communautés microbiennes et phytoplanctoniques.  
+- intégrer les données **ZOOnet** pour caractériser la **biomasse et la structure de taille du zooplancton**,  et comparer leurs variations saisonnières à celles des communautés microbiennes et phytoplanctoniques.
+- fusionner les différentes sources de données (SOMLIT, PHYTOBS, ZOOnet)  
+  dans un **dataframe d’observation unique** exporté pour les simulations saisonnières sous Python.
+
 
 
 
@@ -45,6 +48,8 @@ Ce dépôt contient l’ensemble du pipeline R permettant de :
 | **8a** | `08a_zoo_import_cleaning.R` | Importation et nettoyage des données ZOOnet : extraction des en-têtes, nettoyage des dates et harmonisation des colonnes. |
 | **8b** | `08b_zoo_biomass_conversion.R` | Conversion des biomasses totales et par classes de taille en mmol N/m³ et calcul des moyennes mensuelles. |
 | **8c** | `08c_zoo_visualisations.R` | Visualisations des cycles saisonniers du zooplancton (total et par classes de taille) avec lissage LOESS et intervalles de confiance. |
+| **9a** | `09a_prepare_observation_dataframe.R` | Prépare les jeux de données CHLA moyens mensuels et journaliers, avec conversion temporelle en mois numériques. |
+| **9b** | `09b_export_observation_csv.R` | Fusionne les biomasses SOMLIT, PHYTOBS et ZOOnet avec les variables environnementales pour construire le dataframe `observation` destiné au modèle Python. |
 
 
 ---
