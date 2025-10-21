@@ -15,6 +15,8 @@ Ce dépôt contient l’ensemble du pipeline R permettant de :
 - transformer ces jeux en formats **tidy** pour analyses écologiques ;
 - estimer la **chlorophylle-a** à partir de la **fluorescence rouge (FLR)** et convertir les résultats en biomasses (mmolN/m³) ;
 - visualiser les dynamiques saisonnières par site, groupe microbien et indicateur biogéochimique.
+- calculer les **biomasses microbiennes** à partir des volumes cellulaires moyens et des abondances, en les exprimant en carbone et azote selon les relations allométriques issues de la littérature (Menden-Deuer & Lessard, 2000 ; Bertilsson et al., 2003 ; Godwin et al., 2015) ;  
+- comparer les **dynamiques saisonnières de biomasse** entre sites et groupes microbiens (bactéries hétérotrophes, cyanobactéries, eucaryotes) afin d’évaluer leurs contributions relatives à la productivité primaire.  
 
 ---
 
