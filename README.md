@@ -62,7 +62,7 @@ Ce dépôt contient l’ensemble du pipeline R permettant de :
 | **Hydrologie** | Température, salinité, oxygène, nutriments (NO₃⁻, NH₄⁺, PO₄³⁻, SiOH₄) | SOMLIT |
 | **Biomasses** | Biomasses microbiennes calculées à partir des abondances et tailles cellulaires | Calculées ou observées localement |
 | **PHYTOBS** | Comptages de microphytoplancton (>10 µm) par taxon et par site (Banyuls, Marseille, Villefranche), utilisés pour estimer la biomasse phytoplanctonique saisonnière. | Réseau national PHYTOBS |
-| **ZOOnet** | Données d’imagerie zooplanctonique (biomasse totale et par classe de taille) issues d’analyses semi-automatisées à Marseille, converties en mmol N/m³ pour l’étude des cycles saisonniers. | Plateforme ZOOScan – MIO |
+| **ZOOnet** | Données d’imagerie zooplanctonique (biomasse totale et par classe de taille) issues d’analyses semi-automatisées à Marseille, converties en mmol N/m³ pour l’étude des cycles saisonniers. | Plateforme ZOOnet – MIO |
 
 
 
