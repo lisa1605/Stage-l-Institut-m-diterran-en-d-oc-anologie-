@@ -32,11 +32,12 @@ Les figures ci-dessous présentent les dynamiques saisonnières simulées par le
 ### 1. Phytoplancton, Zooplancton et Chlorophylle a
 - Biomasses simulées et observées des principaux groupes phytoplanctoniques (cyanobactéries, eucaryotes, microphytoplancton) et du zooplancton.  
 - Comparaison des concentrations de chlorophylle a modélisées vs observées (courbes LOESS).
+<img width="1989" height="2045" alt="phytozooXchloromêmeehelle" src="https://github.com/user-attachments/assets/6e73fa2b-36e3-4e50-8d4a-f7a1817b3dde" />
 
-![Phytoplancton, Zooplancton & Chlorophylle a](figures/phytozooXchloromêmeehelle.png)
 
 ### 2. Bactéries hétérotrophes et Nutriments
 - Dynamique des bactéries hétérotrophes (HNA, LNA) comparées aux observations.  
 - Évolution des nutriments et de la matière organique dissoute, modélisés vs observés.
 
-![Bactéries & Nutriments](figures/bacterieXnutMO.png)
+<img width="1711" height="2045" alt="bacterieXnutMO" src="https://github.com/user-attachments/assets/c67626b4-f00d-4363-bc70-72d08aa27f64" />
+
