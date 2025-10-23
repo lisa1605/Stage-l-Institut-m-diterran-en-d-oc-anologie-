@@ -20,3 +20,23 @@ Le modèle couple phytoplancton, bactéries hétérotrophes, zooplancton, nutrim
 - `data/` : fichiers d’observation et de chlorophylle.
 - `notebooks/` : analyses complémentaires ou visualisations.
 - `figures/` : sorties graphiques du modèle.
+
+##  Résultats
+
+Les figures ci-dessous présentent les dynamiques saisonnières simulées par le modèle 0D et leur comparaison avec les observations issues de l’analyse et du traitement des données sur R.  
+
+**Légende :**  
+- **Lignes continues** = valeurs modélisées par le modèle écologique différentiel.  
+- **Lignes pointillées** = observations issues des jeux de données (SOMLIT, PHYTOBS, cytométrie, etc.) après traitement sous R.  
+
+### 1. Phytoplancton, Zooplancton et Chlorophylle a
+- Biomasses simulées et observées des principaux groupes phytoplanctoniques (cyanobactéries, eucaryotes, microphytoplancton) et du zooplancton.  
+- Comparaison des concentrations de chlorophylle a modélisées vs observées (courbes LOESS).
+
+![Phytoplancton, Zooplancton & Chlorophylle a](figures/phytozooXchloromêmeehelle.png)
+
+### 2. Bactéries hétérotrophes et Nutriments
+- Dynamique des bactéries hétérotrophes (HNA, LNA) comparées aux observations.  
+- Évolution des nutriments et de la matière organique dissoute, modélisés vs observés.
+
+![Bactéries & Nutriments](figures/bacterieXnutMO.png)
